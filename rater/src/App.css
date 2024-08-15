@@ -1,0 +1,33 @@
+
+.App {
+ background: black;
+  width: 1,440px;
+  overflow-y: hidden;
+  overflow-x: hidden; /* Evita o overflow horizontal */
+ 
+
+}
+/* src/App.css */
+
+
+.hide-banner {
+  display: none;
+}
+
+/* Adicione a classe hide-banner ao banner quando a URL for /actor/:id */
+
+/* src/App.css */
+.login-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+  width: 128px;
+  height: 40px;
+}
